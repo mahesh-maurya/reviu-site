@@ -1,0 +1,117 @@
+@media only screen and (max-width: 468px){
+headers .sections{
+ zoom: 0.8
+}
+    .head-tops{
+    background: #252525;
+    height: 53px;
+}
+.head-tops .mob-img{
+text-align: center;
+}
+    .pos-img{
+     padding-top: 5px;
+            float: left;
+    }
+     .active{
+    color: #000 !important;
+    }
+    a{
+     text-decoration: none;
+               color:#7c7c7c;;
+    }
+     a.col {
+    color: #fff !important;
+    text-transform: capitalize;
+}
+
+i.fa.fa-caret-right {
+    color: #f3334f;
+    vertical-align: middle;
+}
+    .img-log {
+text-align: center;
+transform: translate(-10%, 0%);
+}
+   .head-tops p {
+text-transform: capitalize;
+margin: 10px auto;
+} 
+                          
+          .mob-search input[type=search] {
+	width: 15px;
+	padding-right: 10px;
+	color: transparent;
+	cursor: pointer;
+}
+     .mob-search input[type=search] {
+	background: #252525 url(../images/search.png) no-repeat 9px center;
+//	border: solid 1px #ccc;
+	padding: 9px 10px 9px 27px;
+	
+	
+	-webkit-border-radius: 10em;
+	-moz-border-radius: 10em;
+	border-radius: 10em;
+	
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	transition: all .5s;
+          float: right;
+	border: 1px;
+}
+.mob-search input[type=search]:focus {
+	width: 130px;
+	padding-left: 32px;
+	color: #000;
+	background-color: #fff;
+	cursor: auto;
+}
+          .mob-search input:-moz-placeholder {
+	color: transparent;
+}
+              .mob-search input::-webkit-input-placeholder {
+	color: transparent;
+}
+.mob-search input[type=search]:hover {
+	background-color: @grey;
+}
+     
+form#demo-2 {
+    margin: 7px auto;
+}
+
+img.text-center.img-log {
+    margin: 2px auto;
+}
+    .bg-mob {
+background: #ededed;
+height: 50px;
+margin: auto;
+width: 100%;
+text-align: center;
+}
+    .bg-mob ul {
+display: -webkit-inline-box;
+color: #7c7c7c;
+padding-top: 14px;
+font-size: 14px;
+}
+    .bg-mob ul li {
+padding-right: 33px;
+}
+    .bg-mob a {
+text-decoration: none;
+color: #c1c1c1;
+}
+    .bg-mob a:hover {
+text-decoration: none;
+color: #000;
+-webkit-transition: all 0.5s;
+}
+}
+
+
+@media only screen and (min-width:321px) and (max-width:768px){
+
+}
